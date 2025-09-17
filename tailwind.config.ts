@@ -57,6 +57,28 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Party-themed colors
+        celebration: {
+          DEFAULT: "hsl(var(--celebration))",
+          foreground: "hsl(var(--celebration-foreground))",
+        },
+        "warm-white": "hsl(var(--warm-white))",
+        "soft-gold": "hsl(var(--soft-gold))",
+        "deep-navy": "hsl(var(--deep-navy))",
+      },
+      backgroundImage: {
+        "gradient-party": "var(--gradient-party)",
+        "gradient-elegant": "var(--gradient-elegant)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        golden: "var(--shadow-golden)",
+        elegant: "var(--shadow-elegant)",
+        card: "var(--shadow-card)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        bounce: "var(--transition-bounce)",
       },
       borderRadius: {
         lg: "var(--radius)",
