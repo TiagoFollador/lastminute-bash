@@ -21,7 +21,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-hero/70"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-warm-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold text-warm-black mb-6 leading-tight">
               Você está convidado para o meu aniversário! 🎉
             </h1>
             <Card className="bg-warm-white/95 backdrop-blur-sm shadow-card border-soft-gold/30">
