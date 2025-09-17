@@ -87,14 +87,6 @@ const Index = () => {
                 Vamos fazer deste domingo um dia especial e cheio de boas memórias!
               </p>
               
-              <Button 
-                onClick={handleRSVP}
-                variant="party" 
-                size="xl" 
-                className="mb-6"
-              >
-                Confirmar Presença ✨
-              </Button>
               
               <p className="text-sm text-muted-foreground italic">
                 Por favor, me avisem quem consegue ir para eu poder organizar tudo 💛
@@ -105,11 +97,6 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 bg-primary text-center">
-        <p className="text-primary-foreground opacity-80">
-          Com muito amor e carinho 💕
-        </p>
-      </footer>
     </div>
   );
 };
