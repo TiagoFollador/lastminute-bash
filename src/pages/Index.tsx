@@ -71,9 +71,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <MapSection />
-
       {/* RSVP Section */}
       <section className="py-20 px-4 bg-gradient-hero">
         <div className="max-w-4xl mx-auto text-center">
